@@ -23,7 +23,7 @@ function Showcase() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-5 gap-[20px] max-[1240px]:grid-cols-3 max-[740px]:grid-cols-2">
+                <div className="grid grid-cols-5 gap-[20px] max-[1240px]:grid-cols-3 max-[740px]:grid-cols-2 py-[20px]">
                     <div className="flex justify-start items-center gap-[10px] max-[445px]:flex-col max-[445px]:justify-center max-[445px]:text-center max-[445px]:gap-[5px]">
                         <img src={service1} alt="" />
                         <p>Изготовливаем конструкции</p>

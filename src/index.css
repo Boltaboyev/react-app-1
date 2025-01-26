@@ -30,3 +30,32 @@
         width: 1300px;
     }
 }
+
+.filterBtns {
+    transition: .2s;
+}
+
+.filterBtns::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transition: .2s;
+}
+
+.filterBtns.active {
+    background: #fff;
+}
+
+.filterBtns.active::after {
+    background: #ff7a1b;
+}
+
+.filterBtns:hover::after {
+    background: #ff7a1b;
+}
+
+.filterBtns:hover {
+    background: #fff;
+}
