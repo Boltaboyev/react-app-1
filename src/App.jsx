@@ -5,7 +5,7 @@ import Category from "./components/Category"
 import Products from "./components/Products"
 import Discount from "./components/Discount"
 import Comments from "./components/Comments"
-
+import About from "./components/About"
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
             <Products />
             <Discount />
             <Comments />
+            <About />
         </>
     )
 }
