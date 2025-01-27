@@ -2,17 +2,12 @@
 @import url("https: //fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
 
 
-:root {
-    --color-1-orange: #ffd634;
-    --color-2-black: #2b150d;
-    --color-3-white: #f9f8f3;
-    --subcolor-1-gray: #e8e8e8;
-    --white-ffffff: #fff;
-    --color-oragne: #ff7a1b;
-    --gray-color-: #bbb;
-    --color-checkmark: #fff;
-    --color-checkmark: #52c12a;
-    --skidka: #ff3838;
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff7a1b;
 }
 
 * {

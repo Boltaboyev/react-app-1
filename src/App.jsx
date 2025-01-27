@@ -6,6 +6,9 @@ import Products from "./components/Products"
 import Discount from "./components/Discount"
 import Comments from "./components/Comments"
 import About from "./components/About"
+import News from "./components/News"
+import Form from "./components/Form"
+import Footer from "./components/Footer"
 
 function App() {
     return (
@@ -17,6 +20,9 @@ function App() {
             <Discount />
             <Comments />
             <About />
+            <News />
+            <Form />
+            <Footer />
         </>
     )
 }
